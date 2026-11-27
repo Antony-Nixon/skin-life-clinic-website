@@ -13,28 +13,26 @@ This project demonstrates:
 - Editorial typography and premium visual direction
 - Mobile-friendly navigation and content hierarchy
 
-## Public-release gate
+## Public-release boundary
 
-The original source contains business contact details, WhatsApp links, pricing material, QR assets, clinic imagery, and historical HTML versions. Those materials are intentionally excluded from this public repository until the owner confirms what may be disclosed.
+The original source contains business contact details, WhatsApp links, pricing material, QR assets, practitioner information, clinic imagery, and historical HTML versions. Those materials are intentionally excluded from this public repository.
 
-The sanitized release will:
+The public demo:
 
-- Keep one approved final website entry point
-- Replace unapproved phone, WhatsApp, and email values with placeholders
-- Remove QR codes unless explicitly approved
-- Remove historical drafts and duplicate exports
-- Confirm treatment claims and pricing are approved
-- Confirm image and logo usage rights
-- Add a privacy notice if the contact flow collects visitor data
+- Uses placeholders for contact, location, practitioner, pricing, and testimonial content
+- Keeps one approved website entry point
+- Uses generic remote image references for visual demonstration
+- Excludes QR codes, historical drafts, and client-only documents
+- Makes no clinical or treatment claim on behalf of the clinic
 
-## Proposed public structure
+## Run locally
 
-```text
-index.html
-assets/
-README.md
+Open [index.html](index.html) directly, or serve the repository with any static server:
+
+```bash
+python -m http.server 8000
 ```
 
 ## Status
 
-Public repository created; source upload is paused pending contact and asset review.
+Public portfolio demo uploaded. A production/client release would require explicit approval of all contact details, claims, pricing, practitioner information, and image licensing.
